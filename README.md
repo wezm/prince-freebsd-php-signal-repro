@@ -8,10 +8,10 @@ These are files used to run Prince through the PHP wrapper on FreeBSD with Apach
 
 Relevant files:
 
-- `etc/modules.d/080_mod_fcgi.conf` — enable the FastCGI module
-- `etc/extra/httpd-vhosts.conf` — virtual host configuration. Notably configures `.php` files to be handled by `php.fcgi`
-- `www/cgi-bin/php.fcgi` — PHP handler script
-- `www/data/prince.php` — PHP file that invokes prince and generates a PDF.
+- [etc/modules.d/080_mod_fcgi.conf](etc/modules.d/080_mod_fcgi.conf) — enable the FastCGI module
+- [etc/extra/httpd-vhosts.conf](etc/extra/httpd-vhosts.conf) — virtual host configuration. Notably configures `.php` files to be handled by `php.fcgi`
+- [www/cgi-bin/php.fcgi](www/cgi-bin/php.fcgi) — PHP handler script
+- [www/data/prince.php](www/data/prince.php) — PHP file that invokes prince and generates a PDF.
 
 ## Environment
 
